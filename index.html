@@ -10,33 +10,27 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./moviehub.css?v=20260912-6">
+<link rel="stylesheet" href="./moviehub.css?v=20260912-7">
 </head>
 <body>
 <div class="bg-orb orb-a"></div><div class="bg-orb orb-b"></div><div class="noise"></div>
 <header class="nav">
   <a class="logo" href="#top"><span class="logo-mark">M</span><span>MovieHub</span></a>
-  <nav class="nav-links">
-    <div id="categoryNav" class="category-nav" aria-label="Categories"></div>
-    <a href="#directory">Directory</a><a href="#about">About</a>
-  </nav>
+  <nav class="nav-links"></nav>
   <div class="nav-actions"><button id="themeBtn" class="icon-btn" aria-label="Toggle theme">☼</button><button id="menuBtn" class="icon-btn mobile-only" aria-label="Open menu">☰</button></div>
 </header>
 <main id="top">
 <section class="hero">
   <div class="hero-copy">
-    <span class="badge"><i></i> LIVE DATA.JSON DIRECTORY</span>
-    <h1>Everything organized.<br><em>One beautiful catalog.</em></h1>
-    <p>Explore the categories and entries stored in <strong>data.json</strong>. Update the JSON and the catalog updates automatically.</p>
-    <div class="hero-search"><span>⌕</span><input id="search" placeholder="Search names, domains, categories or tags…" autocomplete="off"><button id="clearSearch" aria-label="Clear search">×</button></div>
-    <div class="quick-actions"><button data-scroll="#categories">Browse categories <span>↓</span></button><button data-scroll="#directory">Open directory <span>→</span></button></div>
+    <span class="badge"><i></i> MOVIEHUB DIRECTORY</span>
+    <h1>Find it.<br><em>Open it.</em></h1>
+    <p>A simple catalog of useful entertainment and media destinations, organized by category.</p>
+    <div class="hero-search"><span>⌕</span><input id="search" placeholder="Search the catalog…" autocomplete="off"><button id="clearSearch" aria-label="Clear search">×</button></div>
+    <div class="quick-actions"><button data-scroll="#categories">Browse categories <span>↓</span></button><button data-scroll="#directory">Show all <span>→</span></button></div>
   </div>
-  <div class="hero-panel">
-    <div class="panel-top"><span>CATALOG STATUS</span><span class="status"><i></i> Connected</span></div>
-    <div class="hero-number" id="totalCount">—</div><div class="panel-label">entries in data.json</div>
-    <div class="mini-stats"><div><strong id="categoryCount">—</strong><span>categories</span></div><div><strong id="visibleCount">—</strong><span>favorites</span></div></div>
-    <div class="progress"><span id="progressBar"></span></div>
-    <small>Source: ./data.json · generated automatically</small>
+  <div class="hero-mini">
+    <strong id="totalCount">—</strong><span>catalog entries</span>
+    <div><b id="categoryCount">—</b><small>categories</small><b id="visibleCount">—</b><small>favorites</small></div>
   </div>
 </section>
 <section id="categories" class="section">
@@ -50,12 +44,12 @@
   <div id="empty" class="empty hidden"><div>⌕</div><h3>No matching entries</h3><p>Try another search or category.</p></div>
 </section>
 <section id="about" class="about section">
-  <div><span class="eyebrow">ABOUT</span><h2>Data first. UI second.</h2><p>This site intentionally keeps the catalog in <code>data.json</code>. Add, remove, or reorganize entries there and the interface discovers them automatically.</p></div>
-  <div class="about-cards"><article><strong>01</strong><span>JSON driven</span><p>No duplicated catalog data in JavaScript.</p></article><article><strong>02</strong><span>Real destinations</span><p>Each catalog card links directly to its stored URL.</p></article><article><strong>03</strong><span>Personalized</span><p>Favorites and theme preferences stay in your browser.</p></article></div>
+  <div><span class="eyebrow">ABOUT</span><h2>Data first. UI second.</h2><p>This site keeps the catalog in <code>data.json</code>, so the interface updates automatically when the catalog changes.</p></div>
+  <div class="about-cards"><article><strong>01</strong><span>JSON driven</span><p>Catalog data stays in one place.</p></article><article><strong>02</strong><span>Direct links</span><p>Open entries directly from the catalog.</p></article><article><strong>03</strong><span>Personalized</span><p>Favorites and theme stay in your browser.</p></article></div>
 </section>
 </main>
 <footer><span>MovieHub · Laxman Nepal</span><a href="https://github.com/LaxmanNepal/Movies" target="_blank" rel="noopener">GitHub ↗</a></footer>
-<script src="./app.js?v=20260912-6"></script>
-<script src="./enhancements.js?v=20260912-6"></script>
+<script src="./app.js?v=20260912-7"></script>
+<script src="./enhancements.js?v=20260912-7"></script>
 </body>
 </html>
