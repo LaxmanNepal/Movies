@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<meta name="description" content="MovieHub — a glassmorphism entertainment directory powered by data.json."/>
+<meta name="description" content="MovieHub — a liquid glass entertainment directory powered directly by data.json."/>
 <meta name="theme-color" content="#09070d"/>
 <title>MovieHub — Your streaming everything</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,42 +11,42 @@
 </head>
 <body>
 <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div><div class="grain"></div>
-<div class="support-strip"><span>Built by the community — catalog metadata lives in <strong>data.json</strong>.</span><a href="https://github.com/LaxmanNepal/Movies" target="_blank" rel="noopener">Support 💜</a></div>
+<div class="support-strip"><span>Homepage catalog is loaded directly from <strong>data.json</strong>.</span><a href="https://github.com/LaxmanNepal/Movies" target="_blank" rel="noopener">Support 💜</a></div>
 <header class="topbar">
   <a class="brand" href="./"><span class="brand-mark">▶</span><span>MovieHub</span></a>
-  <nav><a href="./">Home</a><a href="#about">About</a><a href="#services">Request</a><a href="#about">DMCA</a></nav>
+  <nav><a href="./">Home</a><a href="#about">About</a><a href="#services">Directory</a><a href="#about">DMCA</a></nav>
   <div class="top-actions"><button class="favorites-btn" id="favoritesBtn">♡ <span id="favoriteCount">0</span></button><label class="region-select"><span id="regionFlag">🌎</span><select id="regionSelect" aria-label="Select region"></select></label><button class="theme-btn" id="themeBtn">☼</button></div>
 </header>
 <main>
 <section class="hero">
-  <div class="hero-badge"><span></span> COMMUNITY ENTERTAINMENT DIRECTORY</div>
+  <div class="hero-badge"><span></span> DATA.JSON DIRECTORY</div>
   <h1>Your streaming <em>everything.</em></h1>
-  <p>Curated entertainment destinations, instant fuzzy search and multi-region discovery in one beautiful liquid-glass directory.</p>
+  <p>Every homepage directory entry is read from <strong>data.json</strong> and presented through a fast liquid-glass interface.</p>
   <div class="search-wrap"><span class="search-icon">⌕</span><input id="search" autocomplete="off" placeholder="Search sites..."/><kbd>⌘ K</kbd><button id="clearSearch" class="search-clear hidden">×</button></div>
   <div class="stats" id="stats"></div>
-  <div class="activity"><span class="activity-dot"></span><span id="activityText">Loading catalog…</span><span>·</span><span>Open-source project</span></div>
+  <div class="activity"><span class="activity-dot"></span><span id="activityText">Loading data.json…</span><span>·</span><span>Open-source project</span></div>
 </section>
 <section id="categories" class="section category-section">
-  <div class="section-head"><div><div class="eyebrow">BROWSE</div><h2>Categories</h2></div><span class="region-label" id="regionLabel">🌎 Global</span></div>
+  <div class="section-head"><div><div class="eyebrow">BROWSE DATA.JSON</div><h2>Categories</h2></div><span class="region-label" id="regionLabel">🌎 Global</span></div>
   <div class="category-grid" id="categoryGrid"></div>
 </section>
 <section id="featured" class="section featured-section">
-  <div class="section-head"><div><div class="eyebrow">DISCOVER</div><h2>Popular right now</h2></div><span class="live-dot"><i></i>Live catalog</span></div>
+  <div class="section-head"><div><div class="eyebrow">FROM DATA.JSON</div><h2>Featured entries</h2></div><span class="live-dot"><i></i>Live catalog</span></div>
   <div class="featured-grid" id="featuredGrid"></div>
 </section>
 <section class="section recently-section" id="recently">
   <div class="section-head"><div><div class="eyebrow">HISTORY</div><h2>Recently visited</h2></div><button class="clear-history" id="clearHistory">Clear</button></div>
-  <div class="recent-grid" id="recentGrid"></div><div class="recent-empty hidden" id="recentEmpty">Open a service and it will appear here.</div>
+  <div class="recent-grid" id="recentGrid"></div><div class="recent-empty hidden" id="recentEmpty">Open a catalog entry and it will appear here.</div>
 </section>
 <section id="services" class="section directory-section">
-  <div class="section-head"><div><div class="eyebrow">DIRECTORY</div><h2 id="serviceTitle">All sites</h2></div><div class="toolbar"><span class="result-count" id="resultCount"></span><select id="sortSelect"><option value="featured">Featured</option><option value="name">Name A–Z</option><option value="category">Category</option></select></div></div>
+  <div class="section-head"><div><div class="eyebrow">FULL DATA.JSON LIST</div><h2 id="serviceTitle">All sites</h2></div><div class="toolbar"><span class="result-count" id="resultCount"></span><select id="sortSelect"><option value="featured">Featured</option><option value="name">Name A–Z</option><option value="category">Category</option></select></div></div>
   <div class="filter-row"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="free">Free</button><button class="filter" data-filter="paid">Paid</button><button class="filter" data-filter="favorites">♥ Favorites</button></div>
   <div class="service-grid" id="serviceGrid"></div><div class="empty hidden" id="empty">No matching services found.</div>
 </section>
 <section class="join-card"><div><div class="eyebrow">JOIN US</div><h2>Help improve the directory.</h2><p>Suggest an official service, report a broken link, or contribute to the open-source project.</p></div><div class="join-actions"><a class="pill primary" href="https://github.com/LaxmanNepal/Movies/issues" target="_blank" rel="noopener">Request ↗</a><a class="pill" href="https://github.com/LaxmanNepal/Movies" target="_blank" rel="noopener">GitHub ↗</a></div></section>
-<section id="about" class="about-card"><div><div class="eyebrow">ABOUT MOVIEHUB</div><h2>Fast. Simple. Transparent.</h2><p>MovieHub is a directory, not a streaming host. The catalog is loaded directly from <strong>data.json</strong>, while the interface stays static, fast and GitHub Pages friendly.</p></div><a class="pill" href="https://github.com/LaxmanNepal/Movies/blob/main/data.json" target="_blank" rel="noopener">View data.json ↗</a></section>
+<section id="about" class="about-card"><div><div class="eyebrow">ABOUT MOVIEHUB</div><h2>Fast. Simple. Transparent.</h2><p>MovieHub is a directory, not a streaming host. The homepage reads its catalog directly from <strong>data.json</strong>; there is no hardcoded service fallback.</p></div><a class="pill" href="https://github.com/LaxmanNepal/Movies/blob/main/data.json" target="_blank" rel="noopener">View data.json ↗</a></section>
 </main>
-<div class="modal hidden" id="serviceModal" role="dialog" aria-modal="true"><div class="modal-backdrop" id="modalBackdrop"></div><article class="modal-card"><button class="modal-close" id="modalClose">×</button><div class="modal-icon" id="modalIcon">N</div><div class="eyebrow" id="modalCategory">SERVICE</div><h2 id="modalName">Service</h2><p id="modalDesc"></p><div class="modal-meta"><span id="modalTag"></span><span id="modalRegions"></span></div><div class="modal-actions"><button class="modal-fav" id="modalFav">♡ Save</button><a class="pill primary" id="modalVisit" href="#" target="_blank" rel="noopener noreferrer">Visit official site ↗</a></div></article></div>
+<div class="modal hidden" id="serviceModal" role="dialog" aria-modal="true"><div class="modal-backdrop" id="modalBackdrop"></div><article class="modal-card"><button class="modal-close" id="modalClose">×</button><div class="modal-icon" id="modalIcon">N</div><div class="eyebrow" id="modalCategory">SERVICE</div><h2 id="modalName">Service</h2><p id="modalDesc"></p><div class="modal-meta"><span id="modalTag"></span><span id="modalRegions"></span></div><div class="modal-actions"><button class="modal-fav" id="modalFav">♡ Save</button><a class="pill primary" id="modalVisit" href="#" target="_blank" rel="noopener noreferrer">Visit site ↗</a></div></article></div>
 <footer><span>Curated with ♥ by Laxman Nepal</span><span>© <span id="year"></span> MovieHub</span></footer>
 <script src="./app.js"></script>
 </body></html>
