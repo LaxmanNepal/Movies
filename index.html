@@ -10,13 +10,23 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./moviehub.css?v=20260912-9">
+<link rel="stylesheet" href="./moviehub.css?v=20260912-10">
+<style>
+.nav-search{display:flex;align-items:center;gap:7px;width:180px;min-width:120px;margin-left:18px;padding:5px 8px 5px 11px;border:1px solid rgba(255,255,255,.1);border-radius:12px;background:rgba(255,255,255,.045);transition:.25s;box-shadow:inset 0 1px rgba(255,255,255,.03)}
+.nav-search:focus-within{width:230px;border-color:rgba(139,92,246,.55);box-shadow:0 0 0 3px rgba(139,92,246,.08)}
+.nav-search span{font-size:18px;color:#858591;line-height:1}.nav-search input{width:100%;min-width:0;border:0;outline:0;background:transparent;color:#fff;font-size:11px}.nav-search input::placeholder{color:#777783}.nav-search button{border:0;background:transparent;color:#777783;font-size:17px;line-height:1;cursor:pointer;padding:4px}.nav-search button:hover{color:#fff}
+.nav-links{margin-left:10px}
+body.light .nav-search{background:rgba(0,0,0,.035);border-color:rgba(0,0,0,.1)}body.light .nav-search input{color:#111}
+@media(max-width:1100px){.nav-search{width:145px;margin-left:10px}.nav-search:focus-within{width:180px}}
+@media(max-width:900px){.nav{flex-wrap:wrap}.nav-search{order:4;width:100%;margin:6px 0 0;flex-basis:100%;display:flex}.nav-search:focus-within{width:100%}.nav-links{order:5;margin-left:0}.nav-actions{margin-left:auto}.nav-links.open{top:110px}}
+@media(max-width:620px){.nav{padding:8px 12px}.nav-search{min-height:40px}.nav-search input{font-size:13px}.nav-links.open{top:108px}}
+</style>
 </head>
 <body>
 <div class="bg-orb orb-a"></div><div class="bg-orb orb-b"></div><div class="noise"></div>
 <header class="nav">
   <a class="logo" href="#directory"><span class="logo-mark">M</span><span>MovieHub</span></a>
-  <div class="nav-search"><span>⌕</span><input id="navSearch" placeholder="Search…" autocomplete="off" aria-label="Search directory"><button id="navSearchClear" aria-label="Clear search">×</button></div>
+  <div class="nav-search"><span>⌕</span><input id="navSearch" placeholder="Search directory…" autocomplete="off" aria-label="Search directory"><button id="navSearchClear" aria-label="Clear search">×</button></div>
   <nav class="nav-links"></nav>
   <div class="nav-actions"><button id="themeBtn" class="icon-btn" aria-label="Toggle theme">☼</button><button id="menuBtn" class="icon-btn mobile-only" aria-label="Open menu">☰</button></div>
 </header>
@@ -42,8 +52,8 @@
 <section id="about" class="about section"><div><span class="eyebrow">ABOUT</span><h2>Data first. UI second.</h2><p>This site keeps the catalog in <code>data.json</code>, so the interface updates automatically when the catalog changes.</p></div><div class="about-cards"><article><strong>01</strong><span>JSON driven</span><p>Catalog data stays in one place.</p></article><article><strong>02</strong><span>Direct links</span><p>Open entries directly from the catalog.</p></article><article><strong>03</strong><span>Personalized</span><p>Favorites and theme stay in your browser.</p></article></div></section>
 </main>
 <footer><span>MovieHub · Laxman Nepal</span><a href="https://github.com/LaxmanNepal/Movies" target="_blank" rel="noopener">GitHub ↗</a></footer>
-<script src="./app.js?v=20260912-9"></script>
-<script src="./enhancements.js?v=20260912-9"></script>
+<script src="./app.js?v=20260912-10"></script>
+<script src="./enhancements.js?v=20260912-10"></script>
 <script>
 (()=>{const d=document,s=d.querySelector('#search'),ds=d.querySelector('#directorySearch'),ns=d.querySelector('#navSearch'),nc=d.querySelector('#navSearchClear');if(!s||!ds||!ns)return;const sync=(v,focus)=>{s.value=v;ds.value=v;ns.value=v;const e=new Event('input',{bubbles:true});s.dispatchEvent(e);if(focus)d.querySelector('#directory')?.scrollIntoView({behavior:'smooth',block:'start'});};ds.addEventListener('input',()=>sync(ds.value,false));ns.addEventListener('input',()=>sync(ns.value,false));s.addEventListener('keydown',e=>{if(e.key==='Enter'&&s.value.trim())sync(s.value,true)});ns.addEventListener('keydown',e=>{if(e.key==='Enter'&&ns.value.trim())sync(ns.value,true)});nc?.addEventListener('click',()=>sync('',false));})();
 </script>
