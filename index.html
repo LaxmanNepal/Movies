@@ -3,13 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="MovieHub — an advanced entertainment directory powered by data.json.">
+<meta name="description" content="MovieHub — a fast, JSON-powered entertainment directory.">
 <meta name="theme-color" content="#08090d">
-<title>MovieHub — Data Directory</title>
+<meta name="robots" content="index,follow">
+<title>MovieHub — Entertainment Directory</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./moviehub.css">
+<link rel="stylesheet" href="./moviehub.css?v=20260912-5">
 </head>
 <body>
 <div class="bg-orb orb-a"></div><div class="bg-orb orb-b"></div><div class="noise"></div>
@@ -23,16 +24,16 @@
   <div class="hero-copy">
     <span class="badge"><i></i> LIVE DATA.JSON DIRECTORY</span>
     <h1>Everything organized.<br><em>One beautiful catalog.</em></h1>
-    <p>Explore the categories and entries stored in <strong>data.json</strong>. The interface updates automatically whenever the JSON changes.</p>
-    <div class="hero-search"><span>⌕</span><input id="search" placeholder="Search categories or services…" autocomplete="off"><button id="clearSearch" aria-label="Clear search">×</button></div>
+    <p>Explore the categories and entries stored in <strong>data.json</strong>. Update the JSON and the catalog updates automatically.</p>
+    <div class="hero-search"><span>⌕</span><input id="search" placeholder="Search names, domains, categories or tags…" autocomplete="off"><button id="clearSearch" aria-label="Clear search">×</button></div>
     <div class="quick-actions"><button data-scroll="#categories">Browse categories <span>↓</span></button><button data-scroll="#directory">Open directory <span>→</span></button></div>
   </div>
   <div class="hero-panel">
     <div class="panel-top"><span>CATALOG STATUS</span><span class="status"><i></i> Connected</span></div>
     <div class="hero-number" id="totalCount">—</div><div class="panel-label">entries in data.json</div>
-    <div class="mini-stats"><div><strong id="categoryCount">—</strong><span>categories</span></div><div><strong id="visibleCount">—</strong><span>recognized sources</span></div></div>
+    <div class="mini-stats"><div><strong id="categoryCount">—</strong><span>categories</span></div><div><strong id="visibleCount">—</strong><span>favorites</span></div></div>
     <div class="progress"><span id="progressBar"></span></div>
-    <small>Source: ./data.json · catalog generated automatically</small>
+    <small>Source: ./data.json · generated automatically</small>
   </div>
 </section>
 <section id="categories" class="section">
@@ -41,16 +42,17 @@
 </section>
 <section id="directory" class="section">
   <div class="section-head"><div><span class="eyebrow">CATALOG</span><h2>Directory</h2></div><span id="resultCount" class="result-count">Loading…</span></div>
-  <div class="toolbar"><div id="filters" class="filters"></div><select id="sort"><option value="name">Name A–Z</option><option value="category">Category</option><option value="source">Source order</option></select></div>
+  <div class="toolbar"><div id="filters" class="filters"></div><select id="sort" aria-label="Sort directory"><option value="name">Name A–Z</option><option value="category">Category</option><option value="source">Source order</option></select></div>
   <div id="serviceGrid" class="service-grid"></div>
   <div id="empty" class="empty hidden"><div>⌕</div><h3>No matching entries</h3><p>Try another search or category.</p></div>
 </section>
 <section id="about" class="about section">
-  <div><span class="eyebrow">ABOUT</span><h2>Data first. UI second.</h2><p>This site intentionally keeps the catalog in <code>data.json</code>. Add, remove, or reorganize data there and the interface discovers it automatically.</p></div>
-  <div class="about-cards"><article><strong>01</strong><span>JSON driven</span><p>No duplicated catalog data in JavaScript.</p></article><article><strong>02</strong><span>Responsive</span><p>Designed for phone, tablet and desktop.</p></article><article><strong>03</strong><span>Fast</span><p>Static GitHub Pages architecture with client-side search.</p></article></div>
+  <div><span class="eyebrow">ABOUT</span><h2>Data first. UI second.</h2><p>This site intentionally keeps the catalog in <code>data.json</code>. Add, remove, or reorganize entries there and the interface discovers them automatically.</p></div>
+  <div class="about-cards"><article><strong>01</strong><span>JSON driven</span><p>No duplicated catalog data in JavaScript.</p></article><article><strong>02</strong><span>Real destinations</span><p>Each catalog card links directly to its stored URL.</p></article><article><strong>03</strong><span>Personalized</span><p>Favorites and theme preferences stay in your browser.</p></article></div>
 </section>
 </main>
 <footer><span>MovieHub · Laxman Nepal</span><a href="https://github.com/LaxmanNepal/Movies" target="_blank" rel="noopener">GitHub ↗</a></footer>
-<script src="./app.js?v=20260912-4"></script>
+<script src="./app.js?v=20260912-5"></script>
+<script src="./enhancements.js?v=20260912-5"></script>
 </body>
 </html>
