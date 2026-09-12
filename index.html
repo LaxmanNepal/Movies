@@ -10,12 +10,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./moviehub.css?v=20260912-8">
+<link rel="stylesheet" href="./moviehub.css?v=20260912-9">
 </head>
 <body>
 <div class="bg-orb orb-a"></div><div class="bg-orb orb-b"></div><div class="noise"></div>
 <header class="nav">
   <a class="logo" href="#directory"><span class="logo-mark">M</span><span>MovieHub</span></a>
+  <div class="nav-search"><span>⌕</span><input id="navSearch" placeholder="Search…" autocomplete="off" aria-label="Search directory"><button id="navSearchClear" aria-label="Clear search">×</button></div>
   <nav class="nav-links"></nav>
   <div class="nav-actions"><button id="themeBtn" class="icon-btn" aria-label="Toggle theme">☼</button><button id="menuBtn" class="icon-btn mobile-only" aria-label="Open menu">☰</button></div>
 </header>
@@ -28,10 +29,7 @@
     <div class="hero-search"><span>⌕</span><input id="search" placeholder="Search all entries…" autocomplete="off"><button id="clearSearch" aria-label="Clear search">×</button></div>
     <div class="quick-actions"><button data-scroll="#directory">Browse all <span>↓</span></button><button data-scroll="#categories">Categories <span>→</span></button></div>
   </div>
-  <div class="hero-mini">
-    <strong id="totalCount">—</strong><span>catalog entries</span>
-    <div><b id="categoryCount">—</b><small>categories</small><b id="visibleCount">—</b><small>favorites</small></div>
-  </div>
+  <div class="hero-mini"><strong id="totalCount">—</strong><span>catalog entries</span><div><b id="categoryCount">—</b><small>categories</small><b id="visibleCount">—</b><small>favorites</small></div></div>
 </section>
 <section id="directory" class="section directory-first">
   <div class="section-head"><div><span class="eyebrow">ALL CONTENT</span><h2 id="directoryTitle">Directory</h2></div><span id="resultCount" class="result-count">Loading…</span></div>
@@ -40,20 +38,14 @@
   <div id="serviceGrid" class="service-grid"></div>
   <div id="empty" class="empty hidden"><div>⌕</div><h3>No matching entries</h3><p>Try another search or category.</p></div>
 </section>
-<section id="categories" class="section">
-  <div class="section-head"><div><span class="eyebrow">EXPLORE</span><h2>Categories</h2></div><span class="live-label"><i></i> Auto-generated</span></div>
-  <div id="categoryGrid" class="category-grid"></div>
-</section>
-<section id="about" class="about section">
-  <div><span class="eyebrow">ABOUT</span><h2>Data first. UI second.</h2><p>This site keeps the catalog in <code>data.json</code>, so the interface updates automatically when the catalog changes.</p></div>
-  <div class="about-cards"><article><strong>01</strong><span>JSON driven</span><p>Catalog data stays in one place.</p></article><article><strong>02</strong><span>Direct links</span><p>Open entries directly from the catalog.</p></article><article><strong>03</strong><span>Personalized</span><p>Favorites and theme stay in your browser.</p></article></div>
-</section>
+<section id="categories" class="section"><div class="section-head"><div><span class="eyebrow">EXPLORE</span><h2>Categories</h2></div><span class="live-label"><i></i> Auto-generated</span></div><div id="categoryGrid" class="category-grid"></div></section>
+<section id="about" class="about section"><div><span class="eyebrow">ABOUT</span><h2>Data first. UI second.</h2><p>This site keeps the catalog in <code>data.json</code>, so the interface updates automatically when the catalog changes.</p></div><div class="about-cards"><article><strong>01</strong><span>JSON driven</span><p>Catalog data stays in one place.</p></article><article><strong>02</strong><span>Direct links</span><p>Open entries directly from the catalog.</p></article><article><strong>03</strong><span>Personalized</span><p>Favorites and theme stay in your browser.</p></article></div></section>
 </main>
 <footer><span>MovieHub · Laxman Nepal</span><a href="https://github.com/LaxmanNepal/Movies" target="_blank" rel="noopener">GitHub ↗</a></footer>
-<script src="./app.js?v=20260912-8"></script>
-<script src="./enhancements.js?v=20260912-8"></script>
+<script src="./app.js?v=20260912-9"></script>
+<script src="./enhancements.js?v=20260912-9"></script>
 <script>
-(()=>{const d=document,s=d.querySelector('#search'),ds=d.querySelector('#directorySearch');if(!s||!ds)return;const sync=(v,focus)=>{s.value=v;ds.value=v;const e=new Event('input',{bubbles:true});s.dispatchEvent(e);if(focus)d.querySelector('#directory')?.scrollIntoView({behavior:'smooth',block:'start'});};ds.addEventListener('input',()=>sync(ds.value,false));s.addEventListener('keydown',e=>{if(e.key==='Enter'&&s.value.trim())sync(s.value,true)});})();
+(()=>{const d=document,s=d.querySelector('#search'),ds=d.querySelector('#directorySearch'),ns=d.querySelector('#navSearch'),nc=d.querySelector('#navSearchClear');if(!s||!ds||!ns)return;const sync=(v,focus)=>{s.value=v;ds.value=v;ns.value=v;const e=new Event('input',{bubbles:true});s.dispatchEvent(e);if(focus)d.querySelector('#directory')?.scrollIntoView({behavior:'smooth',block:'start'});};ds.addEventListener('input',()=>sync(ds.value,false));ns.addEventListener('input',()=>sync(ns.value,false));s.addEventListener('keydown',e=>{if(e.key==='Enter'&&s.value.trim())sync(s.value,true)});ns.addEventListener('keydown',e=>{if(e.key==='Enter'&&ns.value.trim())sync(ns.value,true)});nc?.addEventListener('click',()=>sync('',false));})();
 </script>
 </body>
 </html>
