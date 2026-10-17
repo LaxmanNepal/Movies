@@ -118,3 +118,71 @@ body.light .favorite{background:#f8fafc}
 @media(min-width:900px){.hero{min-height:420px}.hero-mini{max-width:380px;justify-self:end;width:100%}.service-grid{gap:15px}.service{padding:20px;min-height:158px}.section{padding-top:58px;padding-bottom:58px}}
 @media(max-width:620px){.hero{padding-top:42px}.hero-mini{background:linear-gradient(145deg,#fff,#f4f6ff)}}
 @media(prefers-reduced-motion:reduce){.bg-orb{animation:none}}
+
+
+/* Compact hero, mobile-first browsing, and gentle motion */
+.hero{padding-top:34px;padding-bottom:22px;gap:28px;grid-template-columns:minmax(0,1.35fr) minmax(220px,.65fr)}
+.hero h1{font-size:clamp(34px,4.3vw,54px);line-height:1.02;margin:13px 0 12px}
+.hero-copy>p{font-size:14px;margin:0;max-width:560px}
+.hero-search{margin-top:17px;min-height:46px}
+.quick-actions{margin-top:8px}
+.hero-mini{padding:19px;border-radius:20px}
+.hero-mini>strong{font-size:48px}
+.hero-mini>div{margin-top:14px}
+.hero-mini b{padding:10px;font-size:19px}
+.directory-first{padding-top:10px}
+.section{scroll-margin-top:78px}
+.service{animation:cardIn .42s cubic-bezier(.2,.75,.25,1) both}
+.service:nth-child(4n+2){animation-delay:35ms}.service:nth-child(4n+3){animation-delay:70ms}.service:nth-child(4n+4){animation-delay:105ms}
+.category{transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease,background .22s ease}
+.favorite:active,.filter:active,.category:active,.icon-btn:active{transform:scale(.97)}
+#serviceGrid[aria-busy="true"]{min-height:150px}
+.loading-card{min-height:130px;border:1px solid #e5eaf2;border-radius:18px;background:linear-gradient(100deg,#fff 20%,#f1f4fa 38%,#fff 56%);background-size:220% 100%;animation:shimmer 1.15s linear infinite}
+@keyframes shimmer{to{background-position-x:-220%}}
+@media(min-width:901px){.hero{min-height:0;align-items:center}.hero-mini{max-width:330px}.hero h1{font-size:clamp(36px,4vw,52px)}.directory-first{padding-top:4px}.hero-copy .badge{padding:6px 10px;font-size:9px}}
+@media(max-width:900px){.hero{grid-template-columns:minmax(0,1fr) minmax(190px,.65fr);padding-top:25px;padding-bottom:16px;gap:16px}.hero h1{font-size:clamp(32px,6vw,44px)}.hero-mini{padding:15px}.hero-mini>strong{font-size:38px}.hero-mini>div{margin-top:10px}.hero-mini b{padding:8px;font-size:17px}}
+@media(max-width:620px){
+ .hero,.section{width:calc(100% - 24px)}
+ .hero{display:block;padding:20px 0 10px}
+ .badge{font-size:9px;padding:6px 9px}
+ .hero h1{font-size:clamp(30px,8.8vw,40px);margin:10px 0 7px;letter-spacing:-.045em}
+ .hero h1 br{display:none}
+ .hero-copy>p{font-size:12px;line-height:1.45;max-width:100%}
+ .hero-search{margin-top:12px;min-height:44px;padding:4px 7px 4px 12px}
+ .hero-search span,.directory-search span{font-size:21px}
+ .quick-actions{display:flex;flex-direction:row;gap:16px;margin-top:4px}
+ .quick-actions button{font-size:12px;padding:5px 0}
+ .hero-mini{display:none}
+ .directory-first{padding-top:7px}
+ .section{padding:25px 0}
+ .section-head{margin-bottom:10px}
+ .section h2{font-size:21px}
+ .directory-search{min-height:44px;margin-bottom:9px}
+ .toolbar{gap:7px;margin-bottom:11px}
+ .service-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .service{min-height:126px;padding:11px;border-radius:14px}
+ .service-link{padding-right:0}
+ .service-top{align-items:flex-start;gap:5px}
+ .service-icon{width:32px;height:32px;border-radius:9px;flex:none}
+ .pill{font-size:9px;max-width:calc(100% - 38px);padding:4px 6px}
+ .service h3{font-size:12px;margin:10px 0 3px;padding-right:22px}
+ .service p{font-size:10px;white-space:normal;overflow-wrap:anywhere;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+ .tags{margin-top:7px;gap:4px}
+ .tag{font-size:8px;padding:3px 5px}
+ .favorite{right:7px;top:7px;width:27px;height:27px}
+ .category-grid{gap:7px}
+ .category{min-height:75px;padding:10px}
+ .category .num{font-size:20px}
+ .category h3{font-size:11px}
+ .category p{font-size:8px}
+ .about{margin-top:18px}
+}
+@media(max-width:360px){
+ .hero,.section{width:calc(100% - 20px)}
+ .service-grid{grid-template-columns:1fr}
+ .service{min-height:112px;padding:13px}
+ .service h3{font-size:13px}
+ .service p{font-size:11px}
+ .service-icon{width:36px;height:36px}
+}
+@media(prefers-reduced-motion:reduce){.service,.loading-card{animation:none!important}}
