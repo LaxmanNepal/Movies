@@ -200,3 +200,71 @@ body.light .favorite{background:#f8fafc}
 .recent-service{animation:none}
 #recentGrid{grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
 @media(max-width:620px){.health-summary{grid-template-columns:repeat(2,minmax(0,1fr))}.health-stat{padding:12px}.health-stat strong{font-size:22px}.install-btn{font-size:10px;padding:7px 8px}#recentGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+
+/* UI refinement: accessible controls, clearer hierarchy, and mobile-first browsing */
+:root{--mh-accent:#8b5cf6;--mh-cyan:#06b6d4}
+html{scroll-padding-top:82px}
+button,a,select{touch-action:manipulation}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid rgba(139,92,246,.72);outline-offset:3px}
+.nav-search{flex-shrink:1}
+.nav-search button{min-width:28px;min-height:28px;border-radius:8px}
+.nav-search button:hover,.hero-search button:hover{background:rgba(139,92,246,.12)}
+.category-nav{overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:rgba(139,92,246,.4) transparent}
+.nav-category{transition:background .18s ease,border-color .18s ease,color .18s ease}
+.nav-category.active{background:rgba(139,92,246,.14);border-color:rgba(139,92,246,.3);color:var(--text,#fff)}
+.nav-category.active small{color:inherit;opacity:.75}
+.result-count{display:inline-flex;align-items:center;justify-content:center;min-height:30px;padding:5px 10px;border:1px solid var(--line,rgba(255,255,255,.12));border-radius:999px;background:var(--card,rgba(255,255,255,.04));color:var(--muted,#8d8d98);font-size:11px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.filters{scrollbar-width:thin;scrollbar-color:rgba(139,92,246,.38) transparent;overscroll-behavior-x:contain}
+.filter{transition:background .18s ease,border-color .18s ease,color .18s ease,transform .18s ease}
+.filter.active{box-shadow:0 4px 16px rgba(139,92,246,.13)}
+.service{position:relative;isolation:isolate;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+.service-link{min-width:0}
+.service h3{overflow-wrap:anywhere}
+.service p{overflow-wrap:anywhere}
+.service-icon img{object-fit:contain}
+.favorite{z-index:2;display:grid;place-items:center;line-height:1}
+.favorite:focus-visible{outline-offset:2px}
+.empty .text-button{margin-top:8px}
+#serviceGrid[aria-busy="true"]{pointer-events:none}
+body.light .nav-category.active{color:#5b3bd4;background:rgba(139,92,246,.1);border-color:rgba(139,92,246,.25)}
+body.light .result-count{background:#fff;color:#596273;border-color:#e3e7ef}
+body.light .nav-search button:hover,body.light .hero-search button:hover{background:rgba(109,92,232,.1)}
+@media(hover:hover) and (pointer:fine){
+ .service:hover{transform:translateY(-3px);border-color:rgba(139,92,246,.34);box-shadow:0 14px 38px rgba(25,30,55,.12)}
+ .category:hover{transform:translateY(-2px)}
+}
+@media(max-width:900px){
+ .nav-links{max-width:100%;width:100%;overflow:hidden}
+ .category-nav{max-width:100%;width:100%;padding:4px 0 7px}
+ .nav-category{flex:none}
+ .nav-links.open{position:absolute;left:0;right:0;top:100%;max-width:none;width:100%;padding:10px 14px;background:var(--card,#10111a);border-bottom:1px solid var(--line,rgba(255,255,255,.1));box-shadow:0 18px 30px rgba(0,0,0,.12)}
+ .nav-links.open .category-nav{flex-wrap:wrap;overflow:visible}
+}
+@media(max-width:620px){
+ html{scroll-padding-top:70px}
+ .nav{gap:7px}
+ .logo{font-size:15px}
+ .logo-mark{width:32px;height:32px}
+ .nav-actions{gap:5px}
+ .icon-btn{width:36px;height:36px;border-radius:10px}
+ .nav-search{order:4;flex-basis:100%;width:100%;margin:2px 0 0;min-height:42px}
+ .nav-search:focus-within{width:100%}
+ .nav-links{order:5}
+ .nav-links.open{top:100%}
+ .section-head{align-items:flex-end;gap:8px}
+ .section-head .eyebrow{font-size:8px}
+ .result-count{font-size:10px;min-height:28px;padding:4px 8px}
+ .toolbar{align-items:flex-start}
+ .filters{max-width:100%;flex-wrap:nowrap;overflow-x:auto;padding:2px 2px 7px;white-space:nowrap}
+ .filter{flex:none}
+ #sort{max-width:125px;min-width:96px;font-size:11px}
+ .service-grid{align-items:stretch}
+ .service{overflow:hidden}
+ .service h3{line-height:1.3}
+ .favorite{min-width:28px;min-height:28px}
+ .health-summary{gap:7px}
+}
+@media(prefers-reduced-motion:reduce){
+ *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
