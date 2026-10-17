@@ -186,3 +186,17 @@ body.light .favorite{background:#f8fafc}
  .service-icon{width:36px;height:36px}
 }
 @media(prefers-reduced-motion:reduce){.service,.loading-card{animation:none!important}}
+
+/* PWA, local dashboard, fuzzy search, and catalog health */
+[hidden]{display:none!important}
+.install-btn{font-size:11px;padding:8px 11px;border-radius:10px;white-space:nowrap}
+.text-button{border:1px solid var(--line,#e5eaf2);background:var(--card,#fff);color:var(--muted,#667085);border-radius:10px;padding:8px 11px;font-size:11px;cursor:pointer}
+.text-button:hover{color:var(--accent,#6d5ce8);border-color:var(--accent,#6d5ce8)}
+.health-intro{font-size:13px;color:var(--muted,#667085);margin:0 0 14px}
+.health-summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.health-stat{background:var(--card,#fff);border:1px solid var(--line,#e5eaf2);border-radius:14px;padding:15px;display:flex;flex-direction:column;gap:4px}
+.health-stat strong{font-size:25px;letter-spacing:-.04em;color:var(--text,#172033)}
+.health-stat span{font-size:11px;color:var(--muted,#667085)}
+.recent-service{animation:none}
+#recentGrid{grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+@media(max-width:620px){.health-summary{grid-template-columns:repeat(2,minmax(0,1fr))}.health-stat{padding:12px}.health-stat strong{font-size:22px}.install-btn{font-size:10px;padding:7px 8px}#recentGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
