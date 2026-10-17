@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="MovieHub — a fast, JSON-powered entertainment directory.">
+<meta name="description" content="Explore MovieHub, a responsive directory of entertainment, anime, manga, live TV, apps, downloads, and games.">
 <meta name="theme-color" content="#f7f9fd">
 <link rel="manifest" href="./manifest.json">
 <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
@@ -11,11 +11,19 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="MovieHub">
 <meta name="robots" content="index,follow">
+<link rel="canonical" href="https://laxmannepal.com.np/Movies/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="MovieHub — Entertainment Directory">
+<meta property="og:description" content="Explore entertainment links in one fast, searchable directory.">
+<meta property="og:url" content="https://laxmannepal.com.np/Movies/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="MovieHub — Entertainment Directory">
+<meta name="twitter:description" content="Explore entertainment links in one fast, searchable directory.">
 <title>MovieHub — Entertainment Directory</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./moviehub.css?v=20261018-13">
+<link rel="stylesheet" href="./moviehub.css?v=20261018-17">
 <style>
 .nav-search{display:flex;align-items:center;gap:7px;width:180px;min-width:120px;margin-left:18px;padding:5px 8px 5px 11px;border:1px solid rgba(255,255,255,.1);border-radius:12px;background:rgba(255,255,255,.045);transition:.25s;box-shadow:inset 0 1px rgba(255,255,255,.03)}
 .nav-search:focus-within{width:230px;border-color:rgba(139,92,246,.55);box-shadow:0 0 0 3px rgba(139,92,246,.08)}
@@ -31,7 +39,7 @@ body.light .nav-search{background:rgba(0,0,0,.035);border-color:rgba(0,0,0,.1)}b
 <div class="bg-orb orb-a"></div><div class="bg-orb orb-b"></div><div class="noise"></div>
 <header class="nav">
   <a class="logo" href="#directory"><span class="logo-mark">M</span><span>MovieHub</span></a>
-  <div class="nav-search"><span>⌕</span><input id="navSearch" placeholder="Search directory…" autocomplete="off" aria-label="Search directory"><button id="navSearchClear" aria-label="Clear search">×</button></div>
+  <div class="nav-search"><span>⌕</span><input id="navSearch" placeholder="Search the catalog…" autocomplete="off" aria-label="Search directory" enterkeyhint="search"><button id="navSearchClear" aria-label="Clear search">×</button></div>
   <nav class="nav-links"></nav>
   <div class="nav-actions"><button id="installBtn" class="icon-btn install-btn" type="button" hidden aria-label="Install MovieHub">＋ Install</button><button id="themeBtn" class="icon-btn" aria-label="Toggle theme">☼</button><button id="menuBtn" class="icon-btn mobile-only" aria-label="Open menu">☰</button></div>
 </header>
@@ -41,17 +49,17 @@ body.light .nav-search{background:rgba(0,0,0,.035);border-color:rgba(0,0,0,.1)}b
     <span class="badge"><i></i> MOVIEHUB DIRECTORY</span>
     <h1>Everything.<br><em>In one place.</em></h1>
     <p>Browse the complete catalog instantly, or search for exactly what you need.</p>
-    <div class="hero-search"><span>⌕</span><input id="search" placeholder="Search all entries…" autocomplete="off"><button id="clearSearch" aria-label="Clear search">×</button></div>
+    <div class="hero-search"><span>⌕</span><input id="search" placeholder="Search names, categories, tags…" autocomplete="off" aria-label="Search all catalog entries" enterkeyhint="search"><button id="clearSearch" aria-label="Clear search">×</button></div>
     <div class="quick-actions"><button data-scroll="#directory">Browse all <span>↓</span></button><button data-scroll="#categories">Categories <span>→</span></button></div>
   </div>
   <div class="hero-mini"><strong id="totalCount">—</strong><span>catalog entries</span><div><b id="categoryCount">—</b><small>categories</small><b id="visibleCount">—</b><small>favorites</small></div></div>
 </section>
 <section id="directory" class="section directory-first">
-  <div class="section-head"><div><span class="eyebrow">ALL CONTENT</span><h2 id="directoryTitle">Directory</h2></div><span id="resultCount" class="result-count">Loading…</span></div>
-  <div class="directory-search"><span>⌕</span><input id="directorySearch" placeholder="Search directory…" autocomplete="off"></div>
+  <div class="section-head"><div><span class="eyebrow">ALL CONTENT</span><h2 id="directoryTitle">Directory</h2></div><span id="resultCount" class="result-count" role="status" aria-live="polite">Loading…</span></div>
+  <div class="directory-search"><span>⌕</span><input id="directorySearch" placeholder="Search names, categories, tags…" autocomplete="off" aria-label="Search the directory" enterkeyhint="search"></div>
   <div class="toolbar"><div id="filters" class="filters"></div><select id="sort" aria-label="Sort directory"><option value="name">Name A–Z</option><option value="category">Category</option><option value="source">Source order</option></select></div>
-  <div id="serviceGrid" class="service-grid"></div>
-  <div id="empty" class="empty hidden"><div>⌕</div><h3>No matching entries</h3><p>Try another search or category.</p></div>
+  <div id="serviceGrid" class="service-grid" aria-live="polite" aria-busy="true"></div>
+  <div id="empty" class="empty hidden"><div>⌕</div><h3>No matching entries</h3><p>Try a shorter keyword, clear filters, or choose another category.</p><button id="resetFilters" class="text-button" type="button">Clear search and filters</button></div>
 </section>
 <section id="recentSection" class="section hidden"><div class="section-head"><div><span class="eyebrow">PICK UP WHERE YOU LEFT OFF</span><h2>Recently visited</h2></div><button id="clearRecent" class="text-button" type="button">Clear history</button></div><div id="recentGrid" class="service-grid"></div></section>
 <section id="categories" class="section"><div class="section-head"><div><span class="eyebrow">EXPLORE</span><h2>Categories</h2></div><span class="live-label"><i></i> Auto-generated</span></div><div id="categoryGrid" class="category-grid"></div></section>
@@ -59,8 +67,8 @@ body.light .nav-search{background:rgba(0,0,0,.035);border-color:rgba(0,0,0,.1)}b
 <section id="about" class="about section"><div><span class="eyebrow">ABOUT</span><h2>Data first. UI second.</h2><p>This site keeps the catalog in <code>data.json</code>, so the interface updates automatically when the catalog changes.</p></div><div class="about-cards"><article><strong>01</strong><span>JSON driven</span><p>Catalog data stays in one place.</p></article><article><strong>02</strong><span>Direct links</span><p>Open entries directly from the catalog.</p></article><article><strong>03</strong><span>Personalized</span><p>Favorites and theme stay in your browser.</p></article></div></section>
 </main>
 <footer><span>MovieHub · Laxman Nepal</span><a href="https://github.com/LaxmanNepal/Movies" target="_blank" rel="noopener">GitHub ↗</a></footer>
-<script src="./app.js?v=20261018-16"></script>
-<script src="./enhancements.js?v=20261018-13"></script>
+<script src="./app.js?v=20261018-17"></script>
+<script src="./enhancements.js?v=20261018-17"></script>
 <script>if("serviceWorker" in navigator && location.protocol!=="file:"){window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));}</script>
 <script>
 (()=>{const d=document,s=d.querySelector('#search'),ds=d.querySelector('#directorySearch'),ns=d.querySelector('#navSearch'),nc=d.querySelector('#navSearchClear');if(!s||!ds||!ns)return;const sync=(v,focus)=>{s.value=v;ds.value=v;ns.value=v;const e=new Event('input',{bubbles:true});s.dispatchEvent(e);if(focus)d.querySelector('#directory')?.scrollIntoView({behavior:'smooth',block:'start'});};ds.addEventListener('input',()=>sync(ds.value,false));ns.addEventListener('input',()=>sync(ns.value,false));s.addEventListener('keydown',e=>{if(e.key==='Enter'&&s.value.trim())sync(s.value,true)});ns.addEventListener('keydown',e=>{if(e.key==='Enter'&&ns.value.trim())sync(ns.value,true)});nc?.addEventListener('click',()=>sync('',false));})();
