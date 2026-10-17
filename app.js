@@ -23,7 +23,7 @@ function renderServices(){const grid=$('#serviceGrid');if(!grid)return;const q=s
 function bindFavorites(){$$('[data-favorite]').forEach(b=>b.onclick=e=>{e.preventDefault();e.stopPropagation();const url=b.dataset.favorite;if(state.favorites.has(url))state.favorites.delete(url);else state.favorites.add(url);persistFavorites();renderServices();const favEl=$('#visibleCount');if(favEl)favEl.textContent=state.favorites.size})}
 function bind(){const search=$('#search');if(search)search.oninput=e=>{state.query=e.target.value;if(state.query)state.category='All';const clear=$('#clearSearch');if(clear)clear.style.opacity=state.query?'1':'.35';renderNav(visibleCategories());renderFilters(visibleCategories());renderServices()};const clear=$('#clearSearch');if(clear)clear.onclick=()=>{if(search)search.value='';state.query='';clear.style.opacity='.35';renderServices()};const sort=$('#sort');if(sort)sort.onchange=e=>{state.sort=e.target.value;renderServices()};$$('[data-scroll]').forEach(b=>b.onclick=()=>$(b.dataset.scroll)?.scrollIntoView({behavior:'smooth'}));const theme=$('#themeBtn');if(theme)theme.onclick=()=>{document.body.classList.toggle('light');try{localStorage.setItem('moviehub-theme',document.body.classList.contains('light')?'light':'dark')}catch{}};const menu=$('#menuBtn');if(menu)menu.onclick=()=>$('.nav-links')?.classList.toggle('open')}
 loadFavorites();
-try{if(localStorage.getItem('moviehub-theme')==='light')document.body.classList.add('light')}catch{}
+try{const savedTheme=localStorage.getItem('moviehub-theme');if(savedTheme==='dark')document.body.classList.remove('light');else document.body.classList.add('light')}catch{document.body.classList.add('light')}
 load();
 bind();
 })();
