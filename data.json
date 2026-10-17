@@ -1,450 +1,770 @@
 {
-    "Movies & Shows": [
-        {
-            "url": "https://1shows.org",
-            "logo_url": "https://www.google.com/s2/favicons?domain=1shows.org&sz=128"
-        },
-        {
-            "url": "https://1flex.org",
-            "logo_url": "https://www.google.com/s2/favicons?domain=1flex.org&sz=128"
-        },
-        {
-            "url": "https://1tube.org",
-            "logo_url": "https://www.google.com/s2/favicons?domain=1tube.org&sz=128"
-        },
-        {
-            "url": "https://shuttletv.su",
-            "logo_url": "https://www.google.com/s2/favicons?domain=shuttletv.su&sz=128"
-        },
-        {
-            "url": "https://flickystream.mov",
-            "logo_url": "https://www.google.com/s2/favicons?domain=flickystream.mov&sz=128"
-        },
-        {
-            "url": "https://meowtv.ru",
-            "logo_url": "https://www.google.com/s2/favicons?domain=meowtv.ru&sz=128"
-        },
-        {
-            "url": "https://rivestream.ru",
-            "logo_url": "https://www.google.com/s2/favicons?domain=rivestream.ru&sz=128"
-        },
-        {
-            "url": "https://cinema.army",
-            "logo_url": "https://www.google.com/s2/favicons?domain=cinema.army&sz=128"
-        },
-        {
-            "url": "https://spencerdevs.xyz",
-            "logo_url": "https://www.google.com/s2/favicons?domain=spencerdevs.xyz&sz=128"
-        },
-        {
-            "url": "https://primeflix.ru",
-            "logo_url": "https://www.google.com/s2/favicons?domain=primeflix.ru&sz=128"
-        },
-        {
-            "url": "https://nepu.cc",
-            "logo_url": "https://www.google.com/s2/favicons?domain=nepu.cc&sz=128"
-        },
-        {
-            "url": "https://flixgaze.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=flixgaze.com&sz=128"
-        },
-        {
-            "url": "https://netplayz.top",
-            "logo_url": "https://www.google.com/s2/favicons?domain=netplayz.top&sz=128"
-        },
-        {
-            "url": "https://hollymoviehd.cc",
-            "logo_url": "https://www.google.com/s2/favicons?domain=hollymoviehd.cc&sz=128"
-        },
-        {
-            "url": "https://cinejoy.to",
-            "logo_url": "https://www.google.com/s2/favicons?domain=cinejoy.to&sz=128"
-        },
-        {
-            "url": "https://movy.sx",
-            "logo_url": "https://www.google.com/s2/favicons?domain=movy.sx&sz=128"
-        },
-        {
-            "url": "https://cinemacity.cc",
-            "logo_url": "https://www.google.com/s2/favicons?domain=cinemacity.cc&sz=128"
-        },
-        {
-            "url": "https://onlyflix.to",
-            "logo_url": "https://www.google.com/s2/favicons?domain=onlyflix.to&sz=128"
-        },
-        {
-            "url": "https://popcornmovies.ac",
-            "logo_url": "https://www.google.com/s2/favicons?domain=popcornmovies.ac&sz=128"
-        },
-        {
-            "url": "https://lookmovie2.to",
-            "logo_url": "https://www.google.com/s2/favicons?domain=lookmovie2.to&sz=128"
-        },
-        {
-            "url": "https://willow.arlen.icu",
-            "logo_url": "https://www.google.com/s2/favicons?domain=willow.arlen.icu&sz=128"
-        },
-        {
-            "url": "https://fmovies-hd.to",
-            "logo_url": "https://www.google.com/s2/favicons?domain=fmovies-hd.to&sz=128"
-        },
-        {
-            "url": "https://flixway.ru",
-            "logo_url": "https://www.google.com/s2/favicons?domain=flixway.ru&sz=128"
-        },
-        {
-            "url": "https://streamingunity.win",
-            "logo_url": "https://www.google.com/s2/favicons?domain=streamingunity.win&sz=128"
-        },
-        {
-            "url": "https://kartoons.me/",
-            "logo_url": "https://www.google.com/s2/favicons?domain=kartoons.me&sz=128"
-        }
-    ],
-    "Anime": [
-        {
-            "url": "https://reanime.to",
-            "logo_url": "https://www.google.com/s2/favicons?domain=reanime.to&sz=128"
-        },
-        {
-            "url": "https://animepahe.pw",
-            "logo_url": "https://www.google.com/s2/favicons?domain=animepahe.pw&sz=128"
-        },
-        {
-            "url": "https://anikototv.to",
-            "logo_url": "https://www.google.com/s2/favicons?domain=anikototv.to&sz=128"
-        },
-        {
-            "url": "https://enma.lol",
-            "logo_url": "https://www.google.com/s2/favicons?domain=enma.lol&sz=128"
-        },
-        {
-            "url": "https://miruro.to",
-            "logo_url": "https://www.google.com/s2/favicons?domain=miruro.to&sz=128"
-        },
-        {
-            "url": "https://anime.nexus",
-            "logo_url": "https://www.google.com/s2/favicons?domain=anime.nexus&sz=128"
-        },
-        {
-            "url": "https://anidb.app",
-            "logo_url": "https://www.google.com/s2/favicons?domain=anidb.app&sz=128"
-        },
-        {
-            "url": "https://anikage.cc",
-            "logo_url": "https://www.google.com/s2/favicons?domain=anikage.cc&sz=128"
-        },
-        {
-            "url": "https://anidap.lol",
-            "logo_url": "https://www.google.com/s2/favicons?domain=anidap.lol&sz=128"
-        },
-        {
-            "url": "https://kitetsu.net",
-            "logo_url": "https://www.google.com/s2/favicons?domain=kitetsu.net&sz=128"
-        },
-        {
-            "url": "https://aniflix.uno",
-            "logo_url": "https://www.google.com/s2/favicons?domain=aniflix.uno&sz=128"
-        },
-        {
-            "url": "https://animex.one",
-            "logo_url": "https://www.google.com/s2/favicons?domain=animex.one&sz=128"
-        },
-        {
-            "url": "https://animetvplus.xyz",
-            "logo_url": "https://www.google.com/s2/favicons?domain=animetvplus.xyz&sz=128"
-        },
-        {
-            "url": "https://anistream.one",
-            "logo_url": "https://www.google.com/s2/favicons?domain=anistream.one&sz=128"
-        },
-        {
-            "url": "https://kaa.lt",
-            "logo_url": "https://www.google.com/s2/favicons?domain=kaa.lt&sz=128"
-        },
-        {
-            "url": "https://justanime.to",
-            "logo_url": "https://www.google.com/s2/favicons?domain=justanime.to&sz=128"
-        },
-        {
-            "url": "https://aniwaves.ru",
-            "logo_url": "https://www.google.com/s2/favicons?domain=aniwaves.ru&sz=128"
-        },
-        {
-            "url": "https://animeheaven.me",
-            "logo_url": "https://www.google.com/s2/favicons?domain=animeheaven.me&sz=128"
-        },
-        {
-            "url": "https://anitaku.io",
-            "logo_url": "https://www.google.com/s2/favicons?domain=anitaku.io&sz=128"
-        },
-        {
-            "url": "https://lunarx.to",
-            "logo_url": "https://www.google.com/s2/favicons?domain=lunarx.to&sz=128"
-        }
-    ],
-    "Manga": [
-        {
-            "url": "https://mangaball.net",
-            "logo_url": "https://www.google.com/s2/favicons?domain=mangaball.net&sz=128"
-        },
-        {
-            "url": "https://atsu.moe",
-            "logo_url": "https://www.google.com/s2/favicons?domain=atsu.moe&sz=128"
-        },
-        {
-            "url": "https://onisaga.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=onisaga.com&sz=128"
-        },
-        {
-            "url": "https://kagane.to",
-            "logo_url": "https://www.google.com/s2/favicons?domain=kagane.to&sz=128"
-        },
-        {
-            "url": "https://aquareader.org",
-            "logo_url": "https://www.google.com/s2/favicons?domain=aquareader.org&sz=128"
-        },
-        {
-            "url": "https://comick.dev",
-            "logo_url": "https://www.google.com/s2/favicons?domain=comick.dev&sz=128"
-        },
-        {
-            "url": "https://comix.to",
-            "logo_url": "https://www.google.com/s2/favicons?domain=comix.to&sz=128"
-        },
-        {
-            "url": "https://mangadot.net",
-            "logo_url": "https://www.google.com/s2/favicons?domain=mangadot.net&sz=128"
-        },
-        {
-            "url": "https://mangabuddy1.co.uk",
-            "logo_url": "https://www.google.com/s2/favicons?domain=mangabuddy1.co.uk&sz=128"
-        },
-        {
-            "url": "https://qtoon.org",
-            "logo_url": "https://www.google.com/s2/favicons?domain=qtoon.org&sz=128"
-        },
-        {
-            "url": "https://specterscans.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=specterscans.com&sz=128"
-        },
-        {
-            "url": "https://mangago.me",
-            "logo_url": "https://www.google.com/s2/favicons?domain=mangago.me&sz=128"
-        },
-        {
-            "url": "https://mangafire.to",
-            "logo_url": "https://www.google.com/s2/favicons?domain=mangafire.to&sz=128"
-        },
-        {
-            "url": "https://allmanga.to",
-            "logo_url": "https://www.google.com/s2/favicons?domain=allmanga.to&sz=128"
-        },
-        {
-            "url": "https://mangakakalot.gg",
-            "logo_url": "https://www.google.com/s2/favicons?domain=mangakakalot.gg&sz=128"
-        },
-        {
-            "url": "https://asurascans.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=asurascans.com&sz=128"
-        },
-        {
-            "url": "https://batcave.biz",
-            "logo_url": "https://www.google.com/s2/favicons?domain=batcave.biz&sz=128"
-        },
-        {
-            "url": "https://readcomicsonline.ru",
-            "logo_url": "https://www.google.com/s2/favicons?domain=readcomicsonline.ru&sz=128"
-        },
-        {
-            "url": "https://mangahub.io",
-            "logo_url": "https://www.google.com/s2/favicons?domain=mangahub.io&sz=128"
-        },
-        {
-            "url": "https://weebcentral.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=weebcentral.com&sz=128"
-        },
-        {
-            "url": "https://mangakatana.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=mangakatana.com&sz=128"
-        },
-        {
-            "url": "https://likemanga.ink",
-            "logo_url": "https://www.google.com/s2/favicons?domain=likemanga.ink&sz=128"
-        },
-        {
-            "url": "https://mangaxo.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=mangaxo.com&sz=128"
-        },
-        {
-            "url": "https://kingofshojo.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=kingofshojo.com&sz=128"
-        }
-    ],
-    "Live TV & Sports": [
-        {
-            "url": "https://dlive.sx",
-            "logo_url": "https://www.google.com/s2/favicons?domain=dlive.sx&sz=128"
-        },
-        {
-            "url": "https://ondemand.st",
-            "logo_url": "https://www.google.com/s2/favicons?domain=ondemand.st&sz=128"
-        },
-        {
-            "url": "https://streamed.pk",
-            "logo_url": "https://www.google.com/s2/favicons?domain=streamed.pk&sz=128"
-        },
-        {
-            "url": "https://en97.sportplus.watch",
-            "logo_url": "https://www.google.com/s2/favicons?domain=en97.sportplus.watch&sz=128"
-        },
-        {
-            "url": "https://venuevault.live",
-            "logo_url": "https://www.google.com/s2/favicons?domain=venuevault.live&sz=128"
-        },
-        {
-            "url": "https://thetvapp.plus",
-            "logo_url": "https://www.google.com/s2/favicons?domain=thetvapp.plus&sz=128"
-        },
-        {
-            "url": "https://ntv.cx",
-            "logo_url": "https://www.google.com/s2/favicons?domain=ntv.cx&sz=128"
-        },
-        {
-            "url": "https://publiciptv.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=publiciptv.com&sz=128"
-        },
-        {
-            "url": "https://streamking.cx",
-            "logo_url": "https://www.google.com/s2/favicons?domain=streamking.cx&sz=128"
-        },
-        {
-            "url": "https://thestreameast.top",
-            "logo_url": "https://www.google.com/s2/favicons?domain=thestreameast.top&sz=128"
-        },
-        {
-            "url": "https://v2.sportsurge.net",
-            "logo_url": "https://www.google.com/s2/favicons?domain=v2.sportsurge.net&sz=128"
-        },
-        {
-            "url": "https://famelack.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=famelack.com&sz=128"
-        },
-        {
-            "url": "https://rivestream.ru",
-            "logo_url": "https://www.google.com/s2/favicons?domain=rivestream.ru&sz=128"
-        },
-        {
-            "url": "https://sportsbite.org",
-            "logo_url": "https://www.google.com/s2/favicons?domain=sportsbite.org&sz=128"
-        },
-        {
-            "url": "https://stmify.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=stmify.com&sz=128"
-        },
-        {
-            "url": "https://ppv.st",
-            "logo_url": "https://www.google.com/s2/favicons?domain=ppv.st&sz=128"
-        },
-        {
-            "url": "https://fifstream1.gt.tc",
-            "logo_url": "https://www.google.com/s2/favicons?domain=fifstream1.gt.tc&sz=128"
-        },
-        {
-            "url": "https://freetvgarden.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=freetvgarden.com&sz=128"
-        }
-    ],
-    "Paid": [
-        {
-            "url": "https://disneyplus.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=128"
-        },
-        {
-            "url": "https://shudder.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=shudder.com&sz=128"
-        },
-        {
-            "url": "https://auth.hulu.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=auth.hulu.com&sz=128"
-        },
-        {
-            "url": "https://netflix.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=netflix.com&sz=128"
-        },
-        {
-            "url": "https://viki.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=viki.com&sz=128"
-        },
-        {
-            "url": "https://hbomax.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=hbomax.com&sz=128"
-        },
-        {
-            "url": "https://tv.apple.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=tv.apple.com&sz=128"
-        },
-        {
-            "url": "https://amazon.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=amazon.com&sz=128"
-        },
-        {
-            "url": "https://paramountplus.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=paramountplus.com&sz=128"
-        },
-        {
-            "url": "https://crunchyroll.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=128"
-        },
-        {
-            "url": "https://mgmplus.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=mgmplus.com&sz=128"
-        },
-        {
-            "url": "https://peacocktv.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=peacocktv.com&sz=128"
-        },
-        {
-            "url": "https://amcplus.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=amcplus.com&sz=128"
-        }
-    ],
-    "Apps": [
-        {
-            "url": "https://playtorrio.pages.dev",
-            "logo_url": "https://www.google.com/s2/favicons?domain=playtorrio.pages.dev&sz=128"
-        },
-        {
-            "url": "https://beetvs.com.co",
-            "logo_url": "https://www.google.com/s2/favicons?domain=beetvs.com.co&sz=128"
-        },
-        {
-            "url": "https://hdobox.net",
-            "logo_url": "https://www.google.com/s2/favicons?domain=hdobox.net&sz=128"
-        },
-        {
-            "url": "https://moviesbox.com.co",
-            "logo_url": "https://www.google.com/s2/favicons?domain=moviesbox.com.co&sz=128"
-        },
-        {
-            "url": "https://netmirror.gg",
-            "logo_url": "https://www.google.com/s2/favicons?domain=netmirror.gg&sz=128"
-        },
-        {
-            "url": "https://pikashowtv.in",
-            "logo_url": "https://www.google.com/s2/favicons?domain=pikashowtv.in&sz=128"
-        },
-        {
-            "url": "https://mobiflix.tv",
-            "logo_url": "https://www.google.com/s2/favicons?domain=mobiflix.tv&sz=128"
-        },
-        {
-            "url": "https://youcineapkpro.com",
-            "logo_url": "https://www.google.com/s2/favicons?domain=youcineapkpro.com&sz=128"
-        },
-        {
-            "url": "https://playfy.live",
-            "logo_url": "https://www.google.com/s2/favicons?domain=playfy.live&sz=128"
-        }
-    ]
+  "Movies & Shows": [
+    {
+      "url": "https://1shows.org",
+      "logo_url": "https://www.google.com/s2/favicons?domain=1shows.org&sz=128"
+    },
+    {
+      "url": "https://1flex.org",
+      "logo_url": "https://www.google.com/s2/favicons?domain=1flex.org&sz=128"
+    },
+    {
+      "url": "https://1tube.org",
+      "logo_url": "https://www.google.com/s2/favicons?domain=1tube.org&sz=128"
+    },
+    {
+      "url": "https://shuttletv.su",
+      "logo_url": "https://www.google.com/s2/favicons?domain=shuttletv.su&sz=128"
+    },
+    {
+      "url": "https://flickystream.mov",
+      "logo_url": "https://www.google.com/s2/favicons?domain=flickystream.mov&sz=128"
+    },
+    {
+      "url": "https://meowtv.ru",
+      "logo_url": "https://www.google.com/s2/favicons?domain=meowtv.ru&sz=128"
+    },
+    {
+      "url": "https://rivestream.ru",
+      "logo_url": "https://www.google.com/s2/favicons?domain=rivestream.ru&sz=128"
+    },
+    {
+      "url": "https://cinema.army",
+      "logo_url": "https://www.google.com/s2/favicons?domain=cinema.army&sz=128"
+    },
+    {
+      "url": "https://spencerdevs.xyz",
+      "logo_url": "https://www.google.com/s2/favicons?domain=spencerdevs.xyz&sz=128"
+    },
+    {
+      "url": "https://primeflix.ru",
+      "logo_url": "https://www.google.com/s2/favicons?domain=primeflix.ru&sz=128"
+    },
+    {
+      "url": "https://nepu.cc",
+      "logo_url": "https://www.google.com/s2/favicons?domain=nepu.cc&sz=128"
+    },
+    {
+      "url": "https://flixgaze.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=flixgaze.com&sz=128"
+    },
+    {
+      "url": "https://netplayz.top",
+      "logo_url": "https://www.google.com/s2/favicons?domain=netplayz.top&sz=128"
+    },
+    {
+      "url": "https://hollymoviehd.cc",
+      "logo_url": "https://www.google.com/s2/favicons?domain=hollymoviehd.cc&sz=128"
+    },
+    {
+      "url": "https://cinejoy.to",
+      "logo_url": "https://www.google.com/s2/favicons?domain=cinejoy.to&sz=128"
+    },
+    {
+      "url": "https://movy.sx",
+      "logo_url": "https://www.google.com/s2/favicons?domain=movy.sx&sz=128"
+    },
+    {
+      "url": "https://cinemacity.cc",
+      "logo_url": "https://www.google.com/s2/favicons?domain=cinemacity.cc&sz=128"
+    },
+    {
+      "url": "https://onlyflix.to",
+      "logo_url": "https://www.google.com/s2/favicons?domain=onlyflix.to&sz=128"
+    },
+    {
+      "url": "https://popcornmovies.ac",
+      "logo_url": "https://www.google.com/s2/favicons?domain=popcornmovies.ac&sz=128"
+    },
+    {
+      "url": "https://lookmovie2.to",
+      "logo_url": "https://www.google.com/s2/favicons?domain=lookmovie2.to&sz=128"
+    },
+    {
+      "url": "https://willow.arlen.icu",
+      "logo_url": "https://www.google.com/s2/favicons?domain=willow.arlen.icu&sz=128"
+    },
+    {
+      "url": "https://fmovies-hd.to",
+      "logo_url": "https://www.google.com/s2/favicons?domain=fmovies-hd.to&sz=128"
+    },
+    {
+      "url": "https://flixway.ru",
+      "logo_url": "https://www.google.com/s2/favicons?domain=flixway.ru&sz=128"
+    },
+    {
+      "url": "https://streamingunity.win",
+      "logo_url": "https://www.google.com/s2/favicons?domain=streamingunity.win&sz=128"
+    },
+    {
+      "url": "https://kartoons.me/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=kartoons.me&sz=128"
+    },
+    {
+      "url": "https://cinezo.net/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://cinezo.net/&sz=128"
+    },
+    {
+      "url": "https://7movies.in/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://7movies.in/&sz=128"
+    },
+    {
+      "url": "https://flixhub.studio/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://flixhub.studio/&sz=128"
+    },
+    {
+      "url": "https://thugtv.online/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://thugtv.online/&sz=128"
+    },
+    {
+      "url": "https://1tube.org/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://1tube.org/&sz=128"
+    },
+    {
+      "url": "https://arrowtv.net/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://arrowtv.net/&sz=128"
+    },
+    {
+      "url": "https://redflix.club/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://redflix.club/&sz=128"
+    },
+    {
+      "url": "https://www.1shows.org/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://www.1shows.org/&sz=128"
+    },
+    {
+      "url": "https://www.1flex.org/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://www.1flex.org/&sz=128"
+    },
+    {
+      "url": "https://nippleflix.org/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://nippleflix.org/&sz=128"
+    },
+    {
+      "url": "https://pantyflix.org/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://pantyflix.org/&sz=128"
+    },
+    {
+      "url": "https://shuttletv.su/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://shuttletv.su/&sz=128"
+    },
+    {
+      "url": "https://youshows.org/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://youshows.org/&sz=128"
+    },
+    {
+      "url": "https://primeshows.org/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://primeshows.org/&sz=128"
+    },
+    {
+      "url": "https://willow.arlen.icu/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://willow.arlen.icu/&sz=128"
+    },
+    {
+      "url": "https://vuflix.co/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://vuflix.co/&sz=128"
+    },
+    {
+      "url": "https://7reels.cc/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://7reels.cc/&sz=128"
+    },
+    {
+      "url": "https://anicine.xyz/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://anicine.xyz/&sz=128"
+    },
+    {
+      "url": "https://flixhub.aniflix.uno/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://flixhub.aniflix.uno/&sz=128"
+    },
+    {
+      "url": "https://cinehd.vc/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://cinehd.vc/&sz=128"
+    },
+    {
+      "url": "https://cinex.lol/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://cinex.lol/&sz=128"
+    }
+  ],
+  "Anime": [
+    {
+      "url": "https://reanime.to",
+      "logo_url": "https://www.google.com/s2/favicons?domain=reanime.to&sz=128"
+    },
+    {
+      "url": "https://animepahe.pw",
+      "logo_url": "https://www.google.com/s2/favicons?domain=animepahe.pw&sz=128"
+    },
+    {
+      "url": "https://anikototv.to",
+      "logo_url": "https://www.google.com/s2/favicons?domain=anikototv.to&sz=128"
+    },
+    {
+      "url": "https://enma.lol",
+      "logo_url": "https://www.google.com/s2/favicons?domain=enma.lol&sz=128"
+    },
+    {
+      "url": "https://miruro.to",
+      "logo_url": "https://www.google.com/s2/favicons?domain=miruro.to&sz=128"
+    },
+    {
+      "url": "https://anime.nexus",
+      "logo_url": "https://www.google.com/s2/favicons?domain=anime.nexus&sz=128"
+    },
+    {
+      "url": "https://anidb.app",
+      "logo_url": "https://www.google.com/s2/favicons?domain=anidb.app&sz=128"
+    },
+    {
+      "url": "https://anikage.cc",
+      "logo_url": "https://www.google.com/s2/favicons?domain=anikage.cc&sz=128"
+    },
+    {
+      "url": "https://anidap.lol",
+      "logo_url": "https://www.google.com/s2/favicons?domain=anidap.lol&sz=128"
+    },
+    {
+      "url": "https://kitetsu.net",
+      "logo_url": "https://www.google.com/s2/favicons?domain=kitetsu.net&sz=128"
+    },
+    {
+      "url": "https://aniflix.uno",
+      "logo_url": "https://www.google.com/s2/favicons?domain=aniflix.uno&sz=128"
+    },
+    {
+      "url": "https://animex.one",
+      "logo_url": "https://www.google.com/s2/favicons?domain=animex.one&sz=128"
+    },
+    {
+      "url": "https://animetvplus.xyz",
+      "logo_url": "https://www.google.com/s2/favicons?domain=animetvplus.xyz&sz=128"
+    },
+    {
+      "url": "https://anistream.one",
+      "logo_url": "https://www.google.com/s2/favicons?domain=anistream.one&sz=128"
+    },
+    {
+      "url": "https://kaa.lt",
+      "logo_url": "https://www.google.com/s2/favicons?domain=kaa.lt&sz=128"
+    },
+    {
+      "url": "https://justanime.to",
+      "logo_url": "https://www.google.com/s2/favicons?domain=justanime.to&sz=128"
+    },
+    {
+      "url": "https://aniwaves.ru",
+      "logo_url": "https://www.google.com/s2/favicons?domain=aniwaves.ru&sz=128"
+    },
+    {
+      "url": "https://animeheaven.me",
+      "logo_url": "https://www.google.com/s2/favicons?domain=animeheaven.me&sz=128"
+    },
+    {
+      "url": "https://anitaku.io",
+      "logo_url": "https://www.google.com/s2/favicons?domain=anitaku.io&sz=128"
+    },
+    {
+      "url": "https://lunarx.to",
+      "logo_url": "https://www.google.com/s2/favicons?domain=lunarx.to&sz=128"
+    },
+    {
+      "url": "https://yenime.net/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://yenime.net/&sz=128"
+    },
+    {
+      "url": "https://www.enma.lol/home",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://www.enma.lol/home&sz=128"
+    },
+    {
+      "url": "https://flixani.studio/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://flixani.studio/&sz=128"
+    },
+    {
+      "url": "https://anishows.org/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://anishows.org/&sz=128"
+    },
+    {
+      "url": "https://animetvplus.xyz/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://animetvplus.xyz/&sz=128"
+    },
+    {
+      "url": "https://kaa.lt/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://kaa.lt/&sz=128"
+    },
+    {
+      "url": "https://justanime.to/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://justanime.to/&sz=128"
+    },
+    {
+      "url": "https://animesalt.link/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://animesalt.link/&sz=128"
+    },
+    {
+      "url": "https://senpaiflix.fun/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://senpaiflix.fun/&sz=128"
+    },
+    {
+      "url": "https://animextrons.co.in/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://animextrons.co.in/&sz=128"
+    },
+    {
+      "url": "https://anikototv.to/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://anikototv.to/&sz=128"
+    },
+    {
+      "url": "https://watchanimez.me/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://watchanimez.me/&sz=128"
+    },
+    {
+      "url": "https://aniwaves.ru/home",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://aniwaves.ru/home&sz=128"
+    },
+    {
+      "url": "https://animerulz.co.in/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://animerulz.co.in/&sz=128"
+    },
+    {
+      "url": "https://dub.animeplay.icu/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://dub.animeplay.icu/&sz=128"
+    },
+    {
+      "url": "https://otanox.online/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://otanox.online/&sz=128"
+    },
+    {
+      "url": "https://hianime.at/home",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://hianime.at/home&sz=128"
+    },
+    {
+      "url": "https://animetsu.site/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://animetsu.site/&sz=128"
+    }
+  ],
+  "Manga": [
+    {
+      "url": "https://mangaball.net",
+      "logo_url": "https://www.google.com/s2/favicons?domain=mangaball.net&sz=128"
+    },
+    {
+      "url": "https://atsu.moe",
+      "logo_url": "https://www.google.com/s2/favicons?domain=atsu.moe&sz=128"
+    },
+    {
+      "url": "https://onisaga.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=onisaga.com&sz=128"
+    },
+    {
+      "url": "https://kagane.to",
+      "logo_url": "https://www.google.com/s2/favicons?domain=kagane.to&sz=128"
+    },
+    {
+      "url": "https://aquareader.org",
+      "logo_url": "https://www.google.com/s2/favicons?domain=aquareader.org&sz=128"
+    },
+    {
+      "url": "https://comick.dev",
+      "logo_url": "https://www.google.com/s2/favicons?domain=comick.dev&sz=128"
+    },
+    {
+      "url": "https://comix.to",
+      "logo_url": "https://www.google.com/s2/favicons?domain=comix.to&sz=128"
+    },
+    {
+      "url": "https://mangadot.net",
+      "logo_url": "https://www.google.com/s2/favicons?domain=mangadot.net&sz=128"
+    },
+    {
+      "url": "https://mangabuddy1.co.uk",
+      "logo_url": "https://www.google.com/s2/favicons?domain=mangabuddy1.co.uk&sz=128"
+    },
+    {
+      "url": "https://qtoon.org",
+      "logo_url": "https://www.google.com/s2/favicons?domain=qtoon.org&sz=128"
+    },
+    {
+      "url": "https://specterscans.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=specterscans.com&sz=128"
+    },
+    {
+      "url": "https://mangago.me",
+      "logo_url": "https://www.google.com/s2/favicons?domain=mangago.me&sz=128"
+    },
+    {
+      "url": "https://mangafire.to",
+      "logo_url": "https://www.google.com/s2/favicons?domain=mangafire.to&sz=128"
+    },
+    {
+      "url": "https://allmanga.to",
+      "logo_url": "https://www.google.com/s2/favicons?domain=allmanga.to&sz=128"
+    },
+    {
+      "url": "https://mangakakalot.gg",
+      "logo_url": "https://www.google.com/s2/favicons?domain=mangakakalot.gg&sz=128"
+    },
+    {
+      "url": "https://asurascans.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=asurascans.com&sz=128"
+    },
+    {
+      "url": "https://batcave.biz",
+      "logo_url": "https://www.google.com/s2/favicons?domain=batcave.biz&sz=128"
+    },
+    {
+      "url": "https://readcomicsonline.ru",
+      "logo_url": "https://www.google.com/s2/favicons?domain=readcomicsonline.ru&sz=128"
+    },
+    {
+      "url": "https://mangahub.io",
+      "logo_url": "https://www.google.com/s2/favicons?domain=mangahub.io&sz=128"
+    },
+    {
+      "url": "https://weebcentral.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=weebcentral.com&sz=128"
+    },
+    {
+      "url": "https://mangakatana.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=mangakatana.com&sz=128"
+    },
+    {
+      "url": "https://likemanga.ink",
+      "logo_url": "https://www.google.com/s2/favicons?domain=likemanga.ink&sz=128"
+    },
+    {
+      "url": "https://mangaxo.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=mangaxo.com&sz=128"
+    },
+    {
+      "url": "https://kingofshojo.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=kingofshojo.com&sz=128"
+    },
+    {
+      "url": "https://mangaball.net/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://mangaball.net/&sz=128"
+    },
+    {
+      "url": "https://comick.dev/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://comick.dev/&sz=128"
+    },
+    {
+      "url": "https://qtoon.org/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://qtoon.org/&sz=128"
+    },
+    {
+      "url": "https://weebcentral.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://weebcentral.com/&sz=128"
+    },
+    {
+      "url": "https://kingofshojo.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://kingofshojo.com/&sz=128"
+    },
+    {
+      "url": "https://www.webtoons.com/en/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://www.webtoons.com/en/&sz=128"
+    },
+    {
+      "url": "https://anireads.cc/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://anireads.cc/&sz=128"
+    }
+  ],
+  "Live TV & Sports": [
+    {
+      "url": "https://dlive.sx",
+      "logo_url": "https://www.google.com/s2/favicons?domain=dlive.sx&sz=128"
+    },
+    {
+      "url": "https://ondemand.st",
+      "logo_url": "https://www.google.com/s2/favicons?domain=ondemand.st&sz=128"
+    },
+    {
+      "url": "https://streamed.pk",
+      "logo_url": "https://www.google.com/s2/favicons?domain=streamed.pk&sz=128"
+    },
+    {
+      "url": "https://en97.sportplus.watch",
+      "logo_url": "https://www.google.com/s2/favicons?domain=en97.sportplus.watch&sz=128"
+    },
+    {
+      "url": "https://venuevault.live",
+      "logo_url": "https://www.google.com/s2/favicons?domain=venuevault.live&sz=128"
+    },
+    {
+      "url": "https://thetvapp.plus",
+      "logo_url": "https://www.google.com/s2/favicons?domain=thetvapp.plus&sz=128"
+    },
+    {
+      "url": "https://ntv.cx",
+      "logo_url": "https://www.google.com/s2/favicons?domain=ntv.cx&sz=128"
+    },
+    {
+      "url": "https://publiciptv.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=publiciptv.com&sz=128"
+    },
+    {
+      "url": "https://streamking.cx",
+      "logo_url": "https://www.google.com/s2/favicons?domain=streamking.cx&sz=128"
+    },
+    {
+      "url": "https://thestreameast.top",
+      "logo_url": "https://www.google.com/s2/favicons?domain=thestreameast.top&sz=128"
+    },
+    {
+      "url": "https://v2.sportsurge.net",
+      "logo_url": "https://www.google.com/s2/favicons?domain=v2.sportsurge.net&sz=128"
+    },
+    {
+      "url": "https://famelack.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=famelack.com&sz=128"
+    },
+    {
+      "url": "https://rivestream.ru",
+      "logo_url": "https://www.google.com/s2/favicons?domain=rivestream.ru&sz=128"
+    },
+    {
+      "url": "https://sportsbite.org",
+      "logo_url": "https://www.google.com/s2/favicons?domain=sportsbite.org&sz=128"
+    },
+    {
+      "url": "https://stmify.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=stmify.com&sz=128"
+    },
+    {
+      "url": "https://ppv.st",
+      "logo_url": "https://www.google.com/s2/favicons?domain=ppv.st&sz=128"
+    },
+    {
+      "url": "https://fifstream1.gt.tc",
+      "logo_url": "https://www.google.com/s2/favicons?domain=fifstream1.gt.tc&sz=128"
+    },
+    {
+      "url": "https://freetvgarden.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=freetvgarden.com&sz=128"
+    },
+    {
+      "url": "https://cinevid.st/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://cinevid.st/&sz=128"
+    },
+    {
+      "url": "https://ondemand.st/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://ondemand.st/&sz=128"
+    },
+    {
+      "url": "https://thestreameast.top/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://thestreameast.top/&sz=128"
+    },
+    {
+      "url": "https://stmify.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://stmify.com/&sz=128"
+    },
+    {
+      "url": "https://famelack.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://famelack.com/&sz=128"
+    },
+    {
+      "url": "https://publiciptv.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://publiciptv.com/&sz=128"
+    },
+    {
+      "url": "https://en97.sportplus.watch/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://en97.sportplus.watch/&sz=128"
+    },
+    {
+      "url": "https://streameastnow.net/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://streameastnow.net/&sz=128"
+    },
+    {
+      "url": "https://www.fancode.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://www.fancode.com/&sz=128"
+    }
+  ],
+  "Paid": [
+    {
+      "url": "https://disneyplus.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=128"
+    },
+    {
+      "url": "https://shudder.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=shudder.com&sz=128"
+    },
+    {
+      "url": "https://auth.hulu.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=auth.hulu.com&sz=128"
+    },
+    {
+      "url": "https://netflix.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=netflix.com&sz=128"
+    },
+    {
+      "url": "https://viki.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=viki.com&sz=128"
+    },
+    {
+      "url": "https://hbomax.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=hbomax.com&sz=128"
+    },
+    {
+      "url": "https://tv.apple.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=tv.apple.com&sz=128"
+    },
+    {
+      "url": "https://amazon.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=amazon.com&sz=128"
+    },
+    {
+      "url": "https://paramountplus.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=paramountplus.com&sz=128"
+    },
+    {
+      "url": "https://crunchyroll.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=128"
+    },
+    {
+      "url": "https://mgmplus.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=mgmplus.com&sz=128"
+    },
+    {
+      "url": "https://peacocktv.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=peacocktv.com&sz=128"
+    },
+    {
+      "url": "https://amcplus.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=amcplus.com&sz=128"
+    },
+    {
+      "url": "https://www.netflix.com/in/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://www.netflix.com/in/&sz=128"
+    },
+    {
+      "url": "https://www.hotstar.com/in/home",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://www.hotstar.com/in/home&sz=128"
+    },
+    {
+      "url": "https://www.hbomax.com/geo-availability/india",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://www.hbomax.com/geo-availability/india&sz=128"
+    },
+    {
+      "url": "https://tv.apple.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://tv.apple.com/&sz=128"
+    },
+    {
+      "url": "https://www.primevideo.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://www.primevideo.com/&sz=128"
+    },
+    {
+      "url": "https://sso.crunchyroll.com/login",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://sso.crunchyroll.com/login&sz=128"
+    },
+    {
+      "url": "https://www.peacocktv.com/unavailable",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://www.peacocktv.com/unavailable&sz=128"
+    },
+    {
+      "url": "https://www.shudder.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://www.shudder.com/&sz=128"
+    },
+    {
+      "url": "https://auth.hulu.com/web/login/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://auth.hulu.com/web/login/&sz=128"
+    },
+    {
+      "url": "https://www.paramountplus.com/intl/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://www.paramountplus.com/intl/&sz=128"
+    },
+    {
+      "url": "https://www.mgmplus.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://www.mgmplus.com/&sz=128"
+    },
+    {
+      "url": "https://www.amcplus.com/login",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://www.amcplus.com/login&sz=128"
+    }
+  ],
+  "Apps": [
+    {
+      "url": "https://playtorrio.pages.dev",
+      "logo_url": "https://www.google.com/s2/favicons?domain=playtorrio.pages.dev&sz=128"
+    },
+    {
+      "url": "https://beetvs.com.co",
+      "logo_url": "https://www.google.com/s2/favicons?domain=beetvs.com.co&sz=128"
+    },
+    {
+      "url": "https://hdobox.net",
+      "logo_url": "https://www.google.com/s2/favicons?domain=hdobox.net&sz=128"
+    },
+    {
+      "url": "https://moviesbox.com.co",
+      "logo_url": "https://www.google.com/s2/favicons?domain=moviesbox.com.co&sz=128"
+    },
+    {
+      "url": "https://netmirror.gg",
+      "logo_url": "https://www.google.com/s2/favicons?domain=netmirror.gg&sz=128"
+    },
+    {
+      "url": "https://pikashowtv.in",
+      "logo_url": "https://www.google.com/s2/favicons?domain=pikashowtv.in&sz=128"
+    },
+    {
+      "url": "https://mobiflix.tv",
+      "logo_url": "https://www.google.com/s2/favicons?domain=mobiflix.tv&sz=128"
+    },
+    {
+      "url": "https://youcineapkpro.com",
+      "logo_url": "https://www.google.com/s2/favicons?domain=youcineapkpro.com&sz=128"
+    },
+    {
+      "url": "https://playfy.live",
+      "logo_url": "https://www.google.com/s2/favicons?domain=playfy.live&sz=128"
+    },
+    {
+      "url": "https://netmirror.gg/10/en-in",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://netmirror.gg/10/en-in&sz=128"
+    },
+    {
+      "url": "https://www.moviesbox.com.co/home/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://www.moviesbox.com.co/home/&sz=128"
+    },
+    {
+      "url": "https://pikashowtv.in/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://pikashowtv.in/&sz=128"
+    },
+    {
+      "url": "https://playtorrio.pages.dev/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://playtorrio.pages.dev/&sz=128"
+    },
+    {
+      "url": "https://youcineapkpro.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://youcineapkpro.com/&sz=128"
+    },
+    {
+      "url": "https://onstreamapks.app/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://onstreamapks.app/&sz=128"
+    }
+  ],
+  "Download": [
+    {
+      "url": "https://hdhub4u.bi/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://hdhub4u.bi/&sz=128"
+    },
+    {
+      "url": "https://filecr.com/home/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://filecr.com/home/&sz=128"
+    },
+    {
+      "url": "https://filmyfly.bingo/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://filmyfly.bingo/&sz=128"
+    },
+    {
+      "url": "https://fitgirl-repacks.site/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://fitgirl-repacks.site/&sz=128"
+    }
+  ],
+  "Games": [
+    {
+      "url": "https://www.crazygames.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://www.crazygames.com/&sz=128"
+    },
+    {
+      "url": "https://ankergames.net/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=https://ankergames.net/&sz=128"
+    }
+  ]
 }
