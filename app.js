@@ -1,7 +1,7 @@
 (()=>{
 'use strict';
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
-const HIDDEN_CATEGORIES=new Set(['Paid']);
+const HIDDEN_CATEGORIES=new Set();
 const DATA_URLS=['./data.json','https://raw.githubusercontent.com/LaxmanNepal/Movies/main/data.json'];
 const state={raw:{},items:[],category:'All',query:'',sort:'name',favorites:new Set()};
 const slug=u=>{try{return new URL(u).hostname.replace(/^www\./,'')}catch{return ''}};
