@@ -23,7 +23,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./moviehub.css?v=20261018-17">
+<link rel="stylesheet" href="./moviehub.css?v=20261018-19">
 <style>
 .nav-search{display:flex;align-items:center;gap:7px;width:180px;min-width:120px;margin-left:18px;padding:5px 8px 5px 11px;border:1px solid rgba(255,255,255,.1);border-radius:12px;background:rgba(255,255,255,.045);transition:.25s;box-shadow:inset 0 1px rgba(255,255,255,.03)}
 .nav-search:focus-within{width:230px;border-color:rgba(139,92,246,.55);box-shadow:0 0 0 3px rgba(139,92,246,.08)}
@@ -63,11 +63,11 @@ body.light .nav-search{background:rgba(0,0,0,.035);border-color:rgba(0,0,0,.1)}b
 </section>
 <section id="recentSection" class="section hidden"><div class="section-head"><div><span class="eyebrow">PICK UP WHERE YOU LEFT OFF</span><h2>Recently visited</h2></div><button id="clearRecent" class="text-button" type="button">Clear history</button></div><div id="recentGrid" class="service-grid"></div></section>
 <section id="categories" class="section"><div class="section-head"><div><span class="eyebrow">EXPLORE</span><h2>Categories</h2></div><span class="live-label"><i></i> Auto-generated</span></div><div id="categoryGrid" class="category-grid"></div></section>
-<section id="catalogHealth" class="section health-section"><div class="section-head"><div><span class="eyebrow">MAINTENANCE</span><h2>Catalog health</h2></div><button id="downloadAudit" class="text-button" type="button">Export report ↓</button></div><p class="health-intro">A local quality check for duplicate links, invalid URLs, and missing logos. No third-party API required.</p><div id="healthSummary" class="health-summary"><span>Catalog check will run after loading.</span></div></section>
+<section id="catalogHealth" class="section health-section"><div class="section-head"><div><span class="eyebrow">MAINTENANCE</span><h2>Catalog health</h2></div><button id="downloadAudit" class="text-button" type="button">Export report ↓</button></div><p class="health-intro">A local quality check for duplicate links, invalid URLs, and missing logos. No third-party API required.</p><div id="healthSummary" class="health-summary"><span>Catalog check will run after loading.</span></div><div id="healthDetails" class="health-details" aria-live="polite"></div></section>
 <section id="about" class="about section"><div><span class="eyebrow">ABOUT</span><h2>Data first. UI second.</h2><p>This site keeps the catalog in <code>data.json</code>, so the interface updates automatically when the catalog changes.</p></div><div class="about-cards"><article><strong>01</strong><span>JSON driven</span><p>Catalog data stays in one place.</p></article><article><strong>02</strong><span>Direct links</span><p>Open entries directly from the catalog.</p></article><article><strong>03</strong><span>Personalized</span><p>Favorites and theme stay in your browser.</p></article></div></section>
 </main>
 <footer><span>MovieHub · Laxman Nepal</span><a href="https://github.com/LaxmanNepal/Movies" target="_blank" rel="noopener">GitHub ↗</a></footer>
-<script src="./app.js?v=20261018-18"></script>
+<script src="./app.js?v=20261018-19"></script>
 <script src="./enhancements.js?v=20261018-17"></script>
 <script>if("serviceWorker" in navigator && location.protocol!=="file:"){window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));}</script>
 <script>
