@@ -3,7 +3,7 @@
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const HIDDEN_CATEGORIES=new Set();
 const DATA_SOURCES=[
-  {url:'./data.json?v=20261018-14',kind:'json'},
+  {url:'./data.json?v=20261018-19',kind:'json'},
   {url:'https://laxmannepal.github.io/Movies/data.json',kind:'json'},
   {url:'https://raw.githubusercontent.com/LaxmanNepal/Movies/main/data.json',kind:'json'},
   {url:'https://raw.githubusercontent.com/LaxmanNepal/Movies/master/data.json',kind:'json'},
