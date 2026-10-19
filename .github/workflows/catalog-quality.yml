@@ -1,0 +1,31 @@
+name: Catalog quality check
+
+on:
+  push:
+    paths:
+      - 'data.json'
+      - 'scripts/audit-catalog.mjs'
+      - '.github/workflows/catalog-quality.yml'
+  pull_request:
+    paths:
+      - 'data.json'
+      - 'scripts/audit-catalog.mjs'
+      - '.github/workflows/catalog-quality.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    name: Validate catalog structure
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run catalog audit
+        run: node scripts/audit-catalog.mjs
