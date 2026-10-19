@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { readFile, writeFile } from 'node:fs/promises';
-import { resolve, dirname } from 'node:path';
+import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
@@ -76,7 +76,7 @@ await writeFile(jsonPath, JSON.stringify(report, null, 2) + '\n');
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const metric = (label, value) => `<article class="metric"><span>${esc(label)}</span><strong>${value}</strong></article>`;
 const categoryRows = Object.entries(categories).map(([name, c]) => `<tr><td>${esc(name)}</td><td>${c.total}</td><td>${c.missingName}</td><td>${c.missingDescription}</td><td>${c.missingLogo}</td><td>${c.duplicateUrl}</td><td>${c.invalidUrl + c.invalidLogo}</td></tr>`).join('');
-const detailRows = rows.map(r => `<tr data-category="${esc(r.category)}" data-issues="${esc(r.issues.join(' '))}" data-search="${esc([r.name,r.url,r.category,r.description].join(' ').toLowerCase())}"><td>${esc(r.category)}</td><td>${esc(r.name || '(missing name)')}</td><td>${r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.url)}</a>` : '—'}</td><td>${esc(r.issues.join(', ') || 'No metadata issues detected')}</td></tr>`).join('');
+const detailRows = rows.map(r => { const link = safeUrl(r.url); return `<tr data-category="${esc(r.category)}" data-issues="${esc(r.issues.join(' '))}" data-search="${esc([r.name,r.url,r.category,r.description].join(' ').toLowerCase())}"><td>${esc(r.category)}</td><td>${esc(r.name || '(missing name)')}</td><td>${link ? `<a href="${esc(link.href)}" target="_blank" rel="noopener noreferrer">${esc(r.url)}</a>` : esc(r.url || '—')}</td><td>${esc(r.issues.join(', ') || 'No metadata issues detected')}</td></tr>`; }).join('');
 const html = `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>MovieHub Catalog Intelligence</title><style>
