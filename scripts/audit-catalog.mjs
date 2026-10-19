@@ -74,7 +74,8 @@ for (const [category, entries] of Object.entries(catalog)) {
 
 console.log(`Catalog audit: ${total} entries across ${Object.keys(catalog).length} categories.`);
 console.log(`Errors: ${errors.length} | Warnings: ${warnings.length}`);
-for (const warning of warnings) console.warn(`WARN: ${warning}`);
+for (const warning of warnings.slice(0, 25)) console.warn(`WARN: ${warning}`);
+if (warnings.length > 25) console.warn(`... and ${warnings.length - 25} additional warnings. Review the complete list locally by running this script.`);
 for (const error of errors) console.error(`ERROR: ${error}`);
 if (errors.length) process.exit(1);
 console.log('PASS: catalog structure and URL fields are valid. Warnings do not block the build.');
